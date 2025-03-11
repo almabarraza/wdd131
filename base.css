@@ -18,7 +18,7 @@ header {
 main {
     background: white;
     grid-column: 1 / 2;
-    color: #333;
+    color: #090909;
     border: 2px solid lightgray;
     border-radius: 15px;
     text-align: center;
@@ -92,9 +92,9 @@ h2 {
 .navigation a:hover {
     font-weight: 700;
     text-decoration: underline;
-    text-decoration-color: lightblue;
+    text-decoration-color: yellow;
     border: 1px solid #fff;
-    color: lightblue;
+    color: yellow;
 
 }
 
@@ -126,7 +126,7 @@ h3 {
 
 .image.second {
     left: 50px;
-    top: 200px;
+    top: 650px;
     height: 150px;
 }
 
