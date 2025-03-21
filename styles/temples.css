@@ -45,7 +45,7 @@ h1 {
     font-size: x-large;
     font-weight: 900;
     text-align: center;
-    max-width: auto;
+    max-width: 100%;
 }
 
 /*
