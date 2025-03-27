@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexiquillo Durango</title>
+    <meta name="author" content="Alma Delia Barraza Raygoza">
+    <meta name="description" content="Place">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>Mexiquillo, Durango</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-large.webp">
+                <source media="(min-width: 500px )" srcset="images/hero-medium.webp">
+                <img src="images/hero-small.webp" alt="Mexiquillo" width="500" height="250">
+            </picture>
+        </div>
+
+        <h2 class="title1">Data</h2>
+        <div class="container1">
+
+            <ul class="list1">
+                <li>
+                    <label for="area">Area: </label>
+                    <input type="text" id="area" name="area" value="13,475 ha">
+                </li>
+                <li>
+                    <label for="population">Population: </label>
+                    <input type="text" id="population" name="population" value="51,269">
+                </li>
+                <li>
+                    <label for="capital">Capital: </label>
+                    <input type="text" id="capital" name="capital" value="El salto">
+                </li>
+                <li>
+                    <label for="languages">Languages: </label>
+                    <input type="text" id="languages" name="languages" value="Spanish">
+                </li>
+                <li>
+                    <label for="currency">Currency: </label>
+                    <input type="text" id="currency" name="currency" value="Mexican Peso">
+                </li>
+                <li>
+                    <label for="time-zone">Time Zone: </label>
+                    <input type="text" id="time-zone" name="time-zone" value="CST, UTC -6">
+                </li>
+                <li>
+                    <label for="calling-code">Calling Code: </label>
+                    <input type="text" id="calling-code" name="calling-code" value="+52 674">
+                </li>
+                <li>
+                    <label for="internet-tld">Internet TLD: </label>
+                    <input type="text" id="internet-tld" name="internet-tld" value=".mx">
+                </li>
+            </ul>
+        </div>
+
+        <h2 class="title2">Weather</h2>
+        <div class="container2">
+
+            <img class="icon" src="images/weather-icon.svg" alt="weather-icon" width="100" height="100">
+            <ul class="list2">
+                <li>
+                    <label for="temperture">Temperture: </label>
+                    <input type="number" id="temperture" name="temperture" value="8">
+
+                </li>
+                <li>
+                    <label for="conditions">Conditions: </label>
+                    <input type="text" id="conditions" name="conditions" value="Parly Cloudy">
+                </li>
+                <li>
+                    <label for="wind">Wind: </label>
+                    <input type="number" id="wind" name="wind" value="6">
+
+                </li>
+                <li>
+                    <label for="wind-chill">Wind Chill:</label>
+                    <input type="text" id="wind-chill" name="wind-chill" readonly>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> Alma Delia Barraza Raygoza México</p>
+        <p><span id="lastModified"></span></p>
+
+    </footer>
+
+</body>
+
+</html>

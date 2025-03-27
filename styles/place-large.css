@@ -1,0 +1,132 @@
+:root {
+    --backgroun-color: #EDEFEB;
+    --text-color: #183431;
+    --footer-header-background: #354F52;
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+    header {
+        background-color: var(--backgroun-color);
+        color: var(--text-color);
+    }
+
+    
+    main {
+        position: relative;
+        overflow: hidden;
+        
+    }
+
+    header {
+        background-color: var(--footer-header-background);
+      
+
+    }
+
+    h1 {
+        color: var(--backgroun-color);
+    }
+
+
+    .container1 {
+        position: absolute;
+        top: 40%;
+        left: 21%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        max-width: 340px;
+        width: 250px;
+        margin: 0 auto;
+        background-color: rgba(237, 238, 235, 0.85);
+        color: var(--text-color);
+        padding-top: 40px;
+    }
+
+    .container2 {
+        position: absolute;
+        top: 60%;
+        right: 0%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 20%;
+        max-width: 325px;
+        background-color: rgba(237, 238, 235, 0.85);
+        color: var(--text-color);
+        padding: 40px 40px 0 0;
+
+    }
+
+
+
+
+    .list1 {
+        width: 80%;
+
+    }
+
+    .list2 {
+        width: 88%;
+
+
+    }
+
+    .title1 {
+        position: absolute;
+        flex-wrap: wrap;
+        border: var(--footer-header-background);
+        background-color: var(--footer-header-background);
+        color: var(--backgroun-color);
+        width: 20%;
+        top: 5%;
+        left: 05%;
+        z-index: 1;
+        padding: 2px;
+
+    }
+
+    .title2 {
+        position: absolute;
+        flex-wrap: wrap;
+        border: var(--footer-header-background);
+        background-color: var(--footer-header-background);
+        color: var(--backgroun-color);
+        width: 20%;
+        top: 35%;
+        right: 18%;
+        z-index: 1;
+
+    }
+
+    .icon {
+        display: none;
+    }
+
+    input {
+        background-color: rgba(237, 238, 235, 0.05);
+        padding: 1px;
+        width: 50px;
+        box-sizing: border-box;  
+    }
+
+    .title2::after {
+        content: " 🌦 ";
+        color: initial;
+        font-family: "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
+        font-size: 1.2em;
+
+    }
+
+
+
+
+
+
+
+}

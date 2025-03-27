@@ -1,0 +1,100 @@
+:root {
+    --backgroun-color: #EDEFEB;
+    --text-color: #183431;
+    --footer-header-background: #354F52;
+
+
+}
+
+header,
+main,
+footer {
+    max-width: 900px;
+    margin: auto;
+    border: 1px var(--border);
+    padding: 1rem;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+    background-color: var(--backgroun-color);
+}
+
+
+h1 {
+    color: var(--backgroun-color);
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+label {
+    flex: 1;
+    text-align: left;
+}
+
+input {
+    flex: 2;
+    border: none;
+    background-color: var(--backgroun-color);
+}
+
+header {
+    background-color: var(--footer-header-background);
+}
+
+footer {
+    background-color: var(--footer-header-background);
+    color: var(--backgroun-color);
+}
+
