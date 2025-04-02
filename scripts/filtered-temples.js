@@ -182,7 +182,7 @@ function createTempleCard(filteredTemples) {
         img.setAttribute("width", "400");
         img.setAttribute("height", "400");
 
-
+        
 
         card.appendChild(name);
         card.appendChild(location);
