@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review</title>
+    <meta name="author" content="Alma Delia Barraza Raygoza">
+    <meta name="description" content="Product Review Form">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <script src="scripts/form.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="form1">
+            <fieldset>
+                <legend>Product Name*</legend>
+                <select id="productName" name="productName" required>
+                    <option value="" disabled selected>Choose a Product...&#9662;</option>
+
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Overall Rating*</legend>
+                <label><input type="radio" id="rating1" name="rating" required>&#9733;</label>
+                <label><input type="radio" id="rating2" name="rating" required>&#9733; &#9733;</label>
+                <label><input type="radio" id="rating3" name="rating" required>&#9733; &#9733; &#9733;</label>
+                <label><input type="radio" id="rating4" name="rating" required>&#9733; &#9733; &#9733; &#9733; </label>
+                <label><input type="radio" id="rating5" name="rating" required>&#9733; &#9733; &#9733; &#9733;
+                    &#9733;</label>
+            </fieldset>
+            <fieldset>
+                <legend>Data of Installation*</legend>
+                <input type="date" id="completeDate" name="completeDate" required>
+            </fieldset>
+            <fieldset>
+                <legend>Which features did you find useful in the product?<br>(Check all that apply)</legend>
+                <label><input type="checkbox" id="durability" name="durability" value="durability">Durability</label>
+                <label><input type="checkbox" id="easy" name="easy" value="easy">Easy of Use</label>
+                <label><input type="checkbox" id="porformance" name="performance"
+                        value="performance">Performance</label>
+                <label><input type="checkbox" id="design" name="design" value="design">Design</label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Written Review (Optional)</legend>
+                <label><textarea id="review" name="review" rows="6" cols="50"
+                        placeholder="Write a review here..."></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend>User Name (Optional)</legend>
+                <label><input type="text" id="userName" name="userName"></label>
+            </fieldset>
+
+            <input type="submit" value="Post Review">
+
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> Alma Delia Barraza Raygoza México</p>
+        <p><span id="lastModified"></span></p>
+
+    </footer>
+</body>
+
+</html>
