@@ -1,0 +1,54 @@
+:root {
+    --backgroun-color: #EEF0F2;
+    --text-color: #353B3C;
+    --footer-header-background: #B1A9AE;
+    --menu: #846A6A;
+}
+
+header,
+main,
+footer {
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: var(--footer-header-background);
+    text-align: center;
+    color: var(--text-color)
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: var(--text-color);
+    background-color: var(--backgroun-color);
+}
+
+
+footer {
+    background-color: var(--footer-header-background);
+}
+
+div {
+    display: block;
+}
+
+header p {
+    font-size: larger;
+}
+
+h1 {
+    font-size: xx-large;
+}
