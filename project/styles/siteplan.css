@@ -15,6 +15,7 @@ footer {
 
 body {
     font-family: "Roboto", sans-serif;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -31,7 +32,9 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    margin: auto;
+    padding: 10px;
     color: var(--text-color);
     background-color: var(--backgroun-color);
 }
@@ -41,14 +44,24 @@ footer {
     background-color: var(--footer-header-background);
 }
 
-div {
+section {
     display: block;
+    border: 1px solid #ddd;
+    margin: 20px;
 }
 
 header p {
     font-size: larger;
+    padding: 10px;
 }
 
 h1 {
     font-size: xx-large;
+    font-weight: 300;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: 400;
 }
