@@ -8,6 +8,7 @@
     <meta name="author" content="Alma Delia Barraza Raygoza">
     <meta name="description" content="our name represents the color of the life and well care in plants">
     <link rel="stylesheet" href="styles/siteplan.css">
+    <link rel="stylesheet" href="styles/siteplan-large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -24,7 +25,14 @@
             and how take care of them.</p>
     </header>
     <main>
-        <section>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-large.webp">
+                <source media="(min-width: 500px )" srcset="images/hero-medium.webp">
+                <img src="images/hero-small.webp" alt="Mexiquillo" width="500" height="250">
+            </picture>
+        </div>
+        <section class="container1">
             <h2>Plant Issues and How to Solve Them</h2>
             <div>
                 <h3>Yellow leaves</h3>
@@ -32,7 +40,7 @@
                     check the dreinage and location of the plant.</p>
             </div>
         </section>
-        <section>
+        <section class="container2">
             <h2>Compost as a Natural Fertilizer</h2>
             <div>
                 <h3>The Power of Compost to Your Plants</h3>
