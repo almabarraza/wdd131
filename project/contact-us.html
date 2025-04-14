@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="author" content="Alma Delia Barraza Raygoza">
+    <meta name="description" content="Send us your questions">
+    <link rel="stylesheet" href="styles/siteplan.css">
+    <link rel="stylesheet" href="styles/siteplan-large.css">
+    <script src="scripts/siteplan.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Plant Care Green leaf
+            <img class="logo" src="images/logo.svg" alt="logo" width="100" height="100">
+        </h1>
+        <h2>Contact Us</h2>
+        <button type="button" id="menu" aria-label="open menu"></button>
+        <nav class="contact-us">
+            <ul class="navigation">
+                <li><a href="siteplan.html" id="home" title="Home">Home</a></li>
+                <li><a href="sun-plants.html" id="sunPlants" title="Sun Plants">Sun Plants</a></li>
+                <li><a href="shade-plants.html" id="shadePlants" title="Shade Plants">Shade Plants</a></li>
+                <li><a href="contact-us.html" id="contactUs" title="Contact Us">Contac Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="get" action="thanks.html" class="form1">
+            <fieldset>
+                <legend>Reason for Contact*</legend>
+                <select id="reasonName" name="reasonName" required>
+                    <option value="" disabled selected>Choose a reason...&#9662;</option>
+
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>User Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>location<input type="text" name="lname"></label>
+                <label>Phone*<input type="tel" name="phone" placeholder="1235551234"></label>
+                <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferred method of contact*</legend>
+                <label><input type="radio" id="methodContact" name="methodContact" required>Email</label>
+                <label><input type="radio" id="methodContact" name="methodContact" required>Phone</label>
+                <label><input type="radio" id="methodContact" name="methodContact" required>Whatsapp</label>
+            </fieldset>
+
+            </fieldset>
+            <fieldset>
+                <legend>Write your message*</legend>
+                <label><textarea id="message" name="message" rows="6" cols="50" placeholder="Write your message here..."
+                        required></textarea></label>
+            </fieldset>
+
+
+            <input type="submit" value="Post message">
+
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> Alma Delia Barraza Raygoza México</p>
+        <p><span id="lastModified"></span></p>
+        <small><a href="sources.html">Cited Sources</a></small>
+
+    </footer>
+</body>
+
+</html>
