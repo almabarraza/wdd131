@@ -23,10 +23,13 @@
         <form method="get" action="review.html" class="form1">
             <fieldset>
                 <legend>Product Name*</legend>
-                <select id="productName" name="productName" required>
-                    <option value="" disabled selected>Choose a Product...&#9662;</option>
+                <label>
+                    Choose one of these products
+                    <select id="productName" name="productName" required>
+                        <option value="" disabled selected>Choose a Product...&#9662;</option>
 
-                </select>
+                    </select>
+                </label>
             </fieldset>
             <fieldset>
                 <legend>Overall Rating*</legend>
@@ -37,10 +40,13 @@
                 <label><input type="radio" id="rating5" name="rating" required>&#9733; &#9733; &#9733; &#9733;
                     &#9733;</label>
             </fieldset>
+
             <fieldset>
                 <legend>Data of Installation*</legend>
-                <label><input type="date" id="completeDate" name="completeDate" required></label>
+                <label for="completeDate">Complete Date:</label>
+                <input type="date" id="completeDate" name="completeDate" required>
             </fieldset>
+
             <fieldset>
                 <legend>Which features did you find useful in the product?<br>(Check all that apply)</legend>
                 <label><input type="checkbox" id="durability" name="durability" value="durability">Durability</label>
