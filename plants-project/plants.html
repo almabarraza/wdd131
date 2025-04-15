@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Care Green Leaf</title>
+    <meta name="author" content="Alma Delia Barraza Raygoza">
+    <meta name="description" content="our name represents the color of the life and well care in plants">
+    <link rel="stylesheet" href="styles/plants.css">
+    <link rel="stylesheet" href="styles/plants-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="scripts/plants.js" defer></script>
+</head>
+
+
+<body>
+    <header>
+        <h1>Plant Care Green leaf
+            <img class="logo" src="images/logo.svg" alt="logo" width="100" height="100">
+        </h1>
+
+        <p>This site allow you to understand better how take care of plants.<br>
+            Here you will find photos and information of differents types of plants<br>
+            and how take care of them.</p>
+
+        <button type="button" id="menu" aria-label="open menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="plants.html" id="home" title="Home">Home</a></li>
+                <li><a href="sun-plants.html" id="sunPlants" title="Sun Plants">Sun Plants</a></li>
+                <li><a href="shade-plants.html" id="shadePlants" title="Shade Plants">Shade Plants</a></li>
+                <li><a href="contact-us.html" id="contactUs" title="Contact Us">Contac Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-large.webp">
+                <source media="(min-width: 500px )" srcset="images/hero-medium.webp">
+                <img src="images/hero-small.webp" alt="Mexiquillo" width="500" height="250">
+            </picture>
+        </div>
+        <section class="container1">
+            <h2>Plant Issues and How to Solve Them</h2>
+            <div>
+                <h3>Yellow leaves</h3>
+                <p>This could be because of excess of water or lack of light.<br>
+                    check the dreinage and location of the plant.</p>
+            </div>
+        </section>
+        <section class="container2">
+            <h2>Compost as a Natural Fertilizer</h2>
+            <div>
+                <h3>The Power of Compost to Your Plants</h3>
+                <p>Compost is a natural plant fertilizer that enriches the soil.<br>
+                    It is a great choice for both indoor and outdoor plants.
+                    It supports healthy root development and strengthens the plant. <br></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> Alma Delia Barraza Raygoza México</p>
+        <p><span id="lastModified"></span></p>
+        <small><a href="sources.html">Cited Sources</a></small>
+    </footer>
+
+</body>
+
+</html>

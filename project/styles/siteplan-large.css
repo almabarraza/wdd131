@@ -1,64 +1,9 @@
 @media screen and (min-width: 500px) {
-    main {
-
-        position: relative;
-
-    }
-
-    .res-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-    }
-
-    h1 {
-
-        grid-column: span 3;
-    }
-
-    .container1 {
-        position: absolute;
-        top: 40%;
-        left: 18%;
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        max-width: 340px;
-        width: 30%;
-        margin: 0 auto;
-        background-color: rgba(237, 238, 235, 0.85);
-        color: var(--text-color);
-        padding-top: 15px;
-        height: 200px;
-
-    }
-
-
-    .container2 {
-        position: absolute;
-        top: 50%;
-        right: -15%;
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 30%;
-        max-width: 325px;
-        background-color: rgba(237, 238, 235, 0.85);
-        color: var(--text-color);
-        padding: 10px;
-
-    }
-
-    h2 {
-
-        display: block;
-        padding: 5px;
-    }
-
-
-
+   
+    .style-title {
+            font-size: 2rem;
+            font-weight: bolder;
+        }
 
     h1 {
         font-size: 4rem;
@@ -69,34 +14,4 @@
         height: 3em;
         vertical-align: -0.5em;
     }
-
-    #menu {
-        display: none;
-        /* hide hamburger button */
-    }
-
-    .navigation {
-        flex-direction: row;
-
-    }
-
-    .navigation a {
-        display: block;
-        flex: 1 1 100%;
-    }
-
-    header {
-        padding: 0;
-    }
-
-    .contact-us {
-        margin-bottom: 0;
-    }
-
-
-
-
-
-
-
 }

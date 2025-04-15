@@ -4,70 +4,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plant Care Green Leaf</title>
+    <title>Website Planning Document</title>
+
     <meta name="author" content="Alma Delia Barraza Raygoza">
-    <meta name="description" content="our name represents the color of the life and well care in plants">
+    <meta name="description" content="project plan">
     <link rel="stylesheet" href="styles/siteplan.css">
     <link rel="stylesheet" href="styles/siteplan-large.css">
+    <script src="scripts/siteplan.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <script src="scripts/siteplan.js" defer></script>
+
 </head>
 
 
 <body>
     <header>
-        <h1>Plant Care Green leaf
-            <img class="logo" src="images/logo.svg" alt="logo" width="100" height="100">
-        </h1>
-
-        <p>This site allow you to understand better how take care of plants.<br>
-            Here you will find photos and information of differents types of plants<br>
-            and how take care of them.</p>
-
-        <button type="button" id="menu" aria-label="open menu"></button>
-        <nav>
-            <ul class="navigation">
-                <li><a href="siteplan.html" id="home" title="Home">Home</a></li>
-                <li><a href="sun-plants.html" id="sunPlants" title="Sun Plants">Sun Plants</a></li>
-                <li><a href="shade-plants.html" id="shadePlants" title="Shade Plants">Shade Plants</a></li>
-                <li><a href="contact-us.html" id="contactUs" title="Contact Us">Contac Us</a></li>
-            </ul>
-        </nav>
-
+        <h1>Site Plan Document</h1>
     </header>
     <main>
-        <div class="hero">
-            <picture>
-                <source media="(min-width: 1000px)" srcset="images/hero-large.webp">
-                <source media="(min-width: 500px )" srcset="images/hero-medium.webp">
-                <img src="images/hero-small.webp" alt="Mexiquillo" width="500" height="250">
-            </picture>
-        </div>
-        <section class="container1">
-            <h2>Plant Issues and How to Solve Them</h2>
+        <section>
+            <h2 class="style-title">Content</h2>
             <div>
-                <h3>Yellow leaves</h3>
-                <p>This could be because of excess of water or lack of light.<br>
-                    check the dreinage and location of the plant.</p>
+                <h3>Site Name:</h3>
+                <p>The name for this site is Plant Care Green Leaf. The name will be in the title in the html structure,
+                    it also will
+                    appear in the header with an h1 tag and next to the name will be a logo of a green leaf. The name
+                    was chosen
+                    because a green leaf represents the color of life and well care in plants.<br>
+                    The logo will be this</p>
+                <img class="logo" src="images/logo.svg" alt="logo" width="100" height="100">
+
             </div>
-        </section>
-        <section class="container2">
-            <h2>Compost as a Natural Fertilizer</h2>
             <div>
-                <h3>The Power of Compost to Your Plants</h3>
-                <p>Compost is a natural plant fertilizer that enriches the soil.<br>
-                    It is a great choice for both indoor and outdoor plants.
-                    It supports healthy root development and strengthens the plant. <br></p>
+                <h3>Site Purpose:</h3>
+                <p>This site will allow the user to understand better the care of plants. In this site the user will
+                    find photos of a
+                    variety of plants and information for their well care. The purpose of the site will appear with a
+                    short paragraph in
+                    the header of the site.</p>
+            </div>
+            <div>
+                <h3>Scenarios</h3>
+                <p>Two scenarios are provided for this web site in the home page. The first one answer the question that
+                    maybe could ask
+                    the user, and it is: Why my plant leaves are turning yellow? To answer that question, I will create
+                    a section in the
+                    home page that will show the topic in an h2 that will say “Plant Issues and How to Solve Them”. This
+                    will have a
+                    sub-topic in a div with a h3 tag that will say “Yellow Leaves” and will explain how to solve the
+                    problem in
+                    a paragraph. Fort the second question that maybe could ask the user could be “How could I supports
+                    the healthy
+                    development in my plant?”. The answer for this question could be “Compost as a Natural Fertilizer”.
+                    This topic will be in a h3 tag inside a section, and there will be a div with the sub-topic in a h2
+                    that will
+                    say “The Power of The Compost to Your Plants” and then will be a paragraph with a paragraph that
+                    will be showing information regards this sub-topic.</p>
+            </div>
+
+            <div>
+                <h3>Color Schema:</h3>
+                <p>For this web page the color schema would be apply with some variables through CSS. For the
+                    background-color would be
+                    #EEF0F2, for text-color would be #353B3C, for the header and footer the color would be #B1A9AE, and
+                    for the menu
+                    #846A6A.</p>
+                <img src="images/color-schema.webp" alt="color schema" width="600" height="280">
+
+            </div>
+
+            <div>
+                <h3>Typography:</h3>
+                <p>The typography for this project will be “Roboto” and “Sans Serif”. Those would be applied in the body
+                    of the web page
+                    with a font-weight of 400.Also these would be applied in the h1 tag with a font-weight of 300 and to
+                    the h2 with a
+                    font weight of 400.</p>
+            </div>
+
+            <div>
+                <h2>Wireframe:</h2>
+                <h3>Desktop View</h3>
+                <img src="images/wireframe-desktop-view.webp" alt="wirefra desktop view" width="800" height="550">
+                <h3>Mobile View</h3>
+                <img src="images/wireframe-mobil-view.webp" alt="wireframe mobile view" width="250" height="700">
             </div>
         </section>
     </main>
     <footer>
         <p>© <span id="currentyear"></span> Alma Delia Barraza Raygoza México</p>
         <p><span id="lastModified"></span></p>
-        <small><a href="sources.html">Cited Sources</a></small>
+
     </footer>
 
 </body>
